@@ -12,7 +12,7 @@ function createTask(text) {
     p.innerHTML = `✓ ${text} `;
 
     let btn = document.createElement("button");
-    btn.textContent = "Smazat";
+    btn.textContent = "Delete";
     btn.classList.add("delete-button");
 
     btn.addEventListener("click", function () {
