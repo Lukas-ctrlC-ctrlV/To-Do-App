@@ -1,3 +1,4 @@
+# To-Do App
 This is a simple web-based To-Do application built with plain HTML, CSS, and JavaScript. It allows users to:
 
 - Add new tasks via an input form.
