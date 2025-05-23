@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/delegate-3327150_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.dva {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ToDo h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#todo-input {
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#odeslat2 {
+    padding: 10px;
+    border-radius: 4px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+
+#odeslat2:hover {
+    background-color: wheat;
+}
+
+.tabulka-Done {
+    border: 5px solid white;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.tabulka-Done p {
+    color: white;
+    font-size: 50px;
+}
+
+.Done {
+    margin-left: 10cm;
+}
+
+.Done h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.delete-button {
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+
+.delete-button:hover {
+    background-color: wheat;
+}
